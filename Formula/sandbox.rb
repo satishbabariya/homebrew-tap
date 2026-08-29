@@ -1,9 +1,9 @@
 # Homebrew formula for sandbox.
 #
-# The url and sha256 here are placeholders. The release workflow stamps them
-# with the tag it built and publishes the result as a release asset, and the
-# tap takes that file rather than this one -- so the checksum in a tap is
-# always one that was actually built:
+# The release workflow stamps the url and sha256 with the tag it built and
+# publishes the result as a release asset; the tap takes that file rather
+# than this one, so the checksum in a tap is always one that was actually
+# built. In the repository the two lines hold placeholders:
 #
 #   gh release download vX.Y.Z --pattern sandbox.rb --dir Formula --clobber
 #
@@ -17,8 +17,8 @@
 class Sandbox < Formula
   desc "Run coding agents in sandboxes whose network egress they cannot bypass"
   homepage "https://github.com/satishbabariya/sandbox"
-  url "https://github.com/satishbabariya/sandbox/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "403a4158b6c58774e8de6d23558a2cb2c5addb42bf98875ae320904b31e862a2"
+  url "https://github.com/satishbabariya/sandbox/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "507bed82d94a243712b9379cac5b877417650d72099bc117c1675e2e3f4e8769"
   license "Apache-2.0"
   head "https://github.com/satishbabariya/sandbox.git", branch: "main"
 
