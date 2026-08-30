@@ -17,8 +17,8 @@
 class Sandbox < Formula
   desc "Run coding agents in sandboxes whose network egress they cannot bypass"
   homepage "https://github.com/satishbabariya/sandbox"
-  url "https://github.com/satishbabariya/sandbox/archive/refs/tags/v0.1.5.tar.gz"
-  sha256 "507bed82d94a243712b9379cac5b877417650d72099bc117c1675e2e3f4e8769"
+  url "https://github.com/satishbabariya/sandbox/archive/refs/tags/v0.1.6.tar.gz"
+  sha256 "fb5e0b137120f0fc48a2e7b3529b05cf93a39050ea4389c7117df6f45b428f28"
   license "Apache-2.0"
   head "https://github.com/satishbabariya/sandbox.git", branch: "main"
 
